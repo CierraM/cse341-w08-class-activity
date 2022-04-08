@@ -24,7 +24,7 @@
     },
     "/profile": {
       "get": {
-        "description": "This can only be done by the logged in user",
+        "description": "",
         "parameters": [],
         "responses": {
           "200": {
@@ -36,13 +36,7 @@
     "/contacts": {
       "get": {
         "description": "",
-        "parameters": [
-          {
-            "name": "authorization",
-            "in": "header",
-            "type": "string"
-          }
-        ],
+        "parameters": [],
         "responses": {
           "200": {
             "description": "OK"

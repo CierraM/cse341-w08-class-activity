@@ -11,20 +11,6 @@ const doc = {
     },
     host: 'localhost:3000',
     schemes: ['http'],
-
-    components: {
-        securitySchemes: {
-            jwt: {
-                type: 'http',
-                scheme: 'bearer',
-                bearerFormat: 'JWT',
-                in: 'header'
-            }
-        }
-    },
-    security: [{
-        jwt: []
-    }]
 };
 
 
